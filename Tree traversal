@@ -69,7 +69,7 @@ class Codechef
    
     }
     static String traverse(Node root, String pre, String post, String in) {
-        //[sir ka code
+
         if (root ==null)
         return;
         
@@ -86,7 +86,7 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int[] a = new int[] {50,25,12,-1,-1,37,30,-1,-1,-1,75,62,-1,70,-1,-1,87,-1,-1};
-		//System.out.print(display(root));
+		System.out.print(display(root));
 				
         traverse(root, pre, post, in);
         System.out.println("pre: ",pre);
